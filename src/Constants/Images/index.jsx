@@ -1,21 +1,20 @@
-const coffeelogo = "/public/coffee_logo.png";
-const whiteCoffee = "/public/coffee-white.png";
-const blackCoffee = "/public/black-coffee.png";
-const coffeeBackground = "/public/coffee-beans-bg.png";
-const coffeeTexture = "/public/coffee-texture.jpg";
-const backgroundImage = "/public/Background.png";
-const footer = "/public/coffee-footer.jpg";
-const appStore = "/public/app_store.png";
-const playStore = "/public/play_store.png";
+const coffeelogo = `${import.meta.env.BASE_URL}coffee_logo.png`;
+const whiteCoffee = `${import.meta.env.BASE_URL}coffee-white.png`;
+const blackCoffee = `${import.meta.env.BASE_URL}black-coffee.png`;
+const coffeeBackground = `${import.meta.env.BASE_URL}coffee-beans-bg.png`;
+const coffeeTexture = `${import.meta.env.BASE_URL}coffee-texture.jpg`;
+const backgroundImage = `${import.meta.env.BASE_URL}Background.png`;
+const footer = `${import.meta.env.BASE_URL}coffee-footer.jpg`;
+const appStore = `${import.meta.env.BASE_URL}app_store.png`;
+const playStore = `${import.meta.env.BASE_URL}play_store.png`;
 
 // Export the Images object to be used in other components for Feedback
-const coffeeFeedback = "/public/Coffee_feedback.jpg";
-const coffeeKhaas = "/public/Coffee_Khaas.jpg";
-const feedbackCoffee1 = "/public/Feedback coffee-img1.jpg";
-const feedbackCoffee2 = "/public/Feedback coffee-img2.webp";
-const premiumCoffee = "/public/Premium Coffee.jpg";
-const ReviewCoffee = "/public/Review Coffee.webp";
-
+const coffeeFeedback = `${import.meta.env.BASE_URL}Coffee_feedback.jpg`;
+const coffeeKhaas = `${import.meta.env.BASE_URL}Coffee_Khaas.jpg`;
+const feedbackCoffee1 = `${import.meta.env.BASE_URL}Feedback coffee-img1.jpg`;
+const feedbackCoffee2 = `${import.meta.env.BASE_URL}Feedback coffee-img2.webp`;
+const premiumCoffee = `${import.meta.env.BASE_URL}Premium Coffee.jpg`;
+const ReviewCoffee = `${import.meta.env.BASE_URL}Review Coffee.webp`;
 
 const Images = {
   coffeelogo,
